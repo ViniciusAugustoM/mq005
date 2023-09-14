@@ -8,17 +8,27 @@ body{
     background-color: cornflowerblue;
 }
  
-header, nav{
+header, menu{
     background-color: black;
     color: wheat;
 }
  header{
-    height: 110px;
+    height: 90px;
  }
  header > h1{
     text-align: center;
  }
-
+ i#burguer{
+    text-align: center;
+    display: none;
+    background-color: rgb(72, 72, 72);
+    cursor: pointer;
+    height: 30px;
+ }
+ i#burguer:hover{
+    background-color: beige;
+    color: black;
+ }
 
 ul{
     display: flex;

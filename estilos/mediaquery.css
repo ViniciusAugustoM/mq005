@@ -3,11 +3,39 @@
  
  header{
     width: 100vw;
+    height:60px;
  }
     article{
         min-width: 310px;
         width: 70vw;
         margin: auto;
+ }
+ i#burguer{
+    display: block;
+
+ }
+ menu{
+    display: none;
+    position: absolute;
+    top: 66px;
+    left: -7px;
+    width: 15vw;
+    height: 92vw;
+    background: #23232e;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+ }
+ li{
+    list-style-type: none;
+    padding-left: 5px;
+    display: block;
+  
+
+ }
+ ul > a{
+    background-color: #23232e;
  }
     
 }
